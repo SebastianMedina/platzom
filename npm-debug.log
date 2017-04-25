@@ -13,23 +13,23 @@
 7 silly cache add   rawSpec: '.',
 7 silly cache add   spec: '/Users/sebas_825/Documents/Sebas/Trabajos/Fundamentos JS/platzom',
 7 silly cache add   type: 'directory' }
-8 verbose addLocalDirectory /Users/sebas_825/.npm/@sebastianmedina/platzom/0.1.0/package.tgz not in flight; packing
+8 verbose addLocalDirectory /Users/sebas_825/.npm/@sebastianmedinadelgado/platzom/0.1.0/package.tgz not in flight; packing
 9 verbose correctMkdir /Users/sebas_825/.npm correctMkdir not in flight; initializing
-10 info lifecycle @sebastianmedina/platzom@0.1.0~prepublish: @sebastianmedina/platzom@0.1.0
-11 silly lifecycle @sebastianmedina/platzom@0.1.0~prepublish: no script for prepublish, continuing
-12 info lifecycle @sebastianmedina/platzom@0.1.0~prepare: @sebastianmedina/platzom@0.1.0
-13 silly lifecycle @sebastianmedina/platzom@0.1.0~prepare: no script for prepare, continuing
-14 verbose tar pack [ '/Users/sebas_825/.npm/@sebastianmedina/platzom/0.1.0/package.tgz',
+10 info lifecycle @sebastianmedinadelgado/platzom@0.1.0~prepublish: @sebastianmedinadelgado/platzom@0.1.0
+11 silly lifecycle @sebastianmedinadelgado/platzom@0.1.0~prepublish: no script for prepublish, continuing
+12 info lifecycle @sebastianmedinadelgado/platzom@0.1.0~prepare: @sebastianmedinadelgado/platzom@0.1.0
+13 silly lifecycle @sebastianmedinadelgado/platzom@0.1.0~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/Users/sebas_825/.npm/@sebastianmedinadelgado/platzom/0.1.0/package.tgz',
 14 verbose tar pack   '/Users/sebas_825/Documents/Sebas/Trabajos/Fundamentos JS/platzom' ]
-15 verbose tarball /Users/sebas_825/.npm/@sebastianmedina/platzom/0.1.0/package.tgz
+15 verbose tarball /Users/sebas_825/.npm/@sebastianmedinadelgado/platzom/0.1.0/package.tgz
 16 verbose folder /Users/sebas_825/Documents/Sebas/Trabajos/Fundamentos JS/platzom
-17 verbose addLocalTarball adding from inside cache /Users/sebas_825/.npm/@sebastianmedina/platzom/0.1.0/package.tgz
+17 verbose addLocalTarball adding from inside cache /Users/sebas_825/.npm/@sebastianmedinadelgado/platzom/0.1.0/package.tgz
 18 verbose correctMkdir /Users/sebas_825/.npm correctMkdir not in flight; initializing
-19 silly cache afterAdd @sebastianmedina/platzom@0.1.0
-20 verbose afterAdd /Users/sebas_825/.npm/@sebastianmedina/platzom/0.1.0/package/package.json not in flight; writing
+19 silly cache afterAdd @sebastianmedinadelgado/platzom@0.1.0
+20 verbose afterAdd /Users/sebas_825/.npm/@sebastianmedinadelgado/platzom/0.1.0/package/package.json not in flight; writing
 21 verbose correctMkdir /Users/sebas_825/.npm correctMkdir not in flight; initializing
-22 verbose afterAdd /Users/sebas_825/.npm/@sebastianmedina/platzom/0.1.0/package/package.json written
-23 silly publish { name: '@sebastianmedina/platzom',
+22 verbose afterAdd /Users/sebas_825/.npm/@sebastianmedinadelgado/platzom/0.1.0/package/package.json written
+23 silly publish { name: '@sebastianmedinadelgado/platzom',
 23 silly publish   version: '0.1.0',
 23 silly publish   description: 'Traductor de idioma Platzom',
 23 silly publish   main: 'dist/src/platzom.js',
@@ -50,52 +50,52 @@
 23 silly publish      mocha: '^3.3.0' },
 23 silly publish   readme: '# Platzom\n\nPlatzom es un idioma inventado para el [curso de fundamentos de JavaScript](https://platzi.com/js) de [platzi](https://platzi.com/), el mejor lugar de educacion online.\n\n## Descripción del idioma\n\n- Primera condicion: La palabra termina en \'ar\', se le quitan esos dos caracteres.\n- Segunda condicion: Si la palabra inicia con \'Z\', se añade \'pe\' al final.\n- Tercera condicion: Si la palabra traducida tiene 10 o mas letras se debe partir a la mitad y unir con un    guion en el medio.\n- Cuarta condicion: Si la palabra origina es un palindromo, ninguna regla anterior cuenta y se devuelve la misma palabra intercalando mayusculas y minusculas\n\n##Instalación\n\n```\nnpm install platzom\n\n```\n\n## USO\n\n```\nimport platzom from \'platzom\'\n\nconsole.log(platzom(\'Programar\')); //Program\nconsole.log(platzom(\'Zorro\')); //Zorrope\nconsole.log(platzom(\'Zarpar\')); //Zarppe\nconsole.log(platzom(\'Abecedario\')); //Abece-dario\nconsole.log(platzom(\'Sometemos\')); //SoMeTeMoS\n\n```\n\n## Creditos\n\n- [Sebastian Medina](https://twitter.com/SebasMD25) con ayuda de [Platzi](https://twitter.com/platzi) y del Profesor [Sacha Lifszyc](https://twitter.com/@slifszyc)\n\n## Licencia\n\n[MIT](https://opensource.org/licenses/MIT)\n',
 23 silly publish   readmeFilename: 'README.md',
-23 silly publish   gitHead: '46557caa08c9b4b19440c3d1f73b4ef24a3b3fe9',
+23 silly publish   gitHead: '086820cfa67a322128c4c8ed52d10154983a4414',
 23 silly publish   bugs: { url: 'https://github.com/SebastianMedina/platzom/issues' },
 23 silly publish   homepage: 'https://github.com/SebastianMedina/platzom#readme',
-23 silly publish   _id: '@sebastianmedina/platzom@0.1.0',
-23 silly publish   _shasum: 'cd1aaa26537bbe836e1756113db262ae8c1c797f',
+23 silly publish   _id: '@sebastianmedinadelgado/platzom@0.1.0',
+23 silly publish   _shasum: 'f29917370fb08596b4f47bfe5c530fc3f9b4e5a5',
 23 silly publish   _from: '.' }
-24 info lifecycle @sebastianmedina/platzom@0.1.0~prepublishOnly: @sebastianmedina/platzom@0.1.0
-25 silly lifecycle @sebastianmedina/platzom@0.1.0~prepublishOnly: no script for prepublishOnly, continuing
+24 info lifecycle @sebastianmedinadelgado/platzom@0.1.0~prepublishOnly: @sebastianmedinadelgado/platzom@0.1.0
+25 silly lifecycle @sebastianmedinadelgado/platzom@0.1.0~prepublishOnly: no script for prepublishOnly, continuing
 26 verbose getPublishConfig undefined
-27 silly mapToRegistry name @sebastianmedina/platzom
-28 silly mapToRegistry scope (from package name) @sebastianmedina
-29 verbose mapToRegistry no registry URL found in name for scope @sebastianmedina
+27 silly mapToRegistry name @sebastianmedinadelgado/platzom
+28 silly mapToRegistry scope (from package name) @sebastianmedinadelgado
+29 verbose mapToRegistry no registry URL found in name for scope @sebastianmedinadelgado
 30 silly mapToRegistry using default registry
 31 silly mapToRegistry registry https://registry.npmjs.org/
 32 silly mapToRegistry data Result {
-32 silly mapToRegistry   raw: '@sebastianmedina/platzom',
-32 silly mapToRegistry   scope: '@sebastianmedina',
-32 silly mapToRegistry   escapedName: '@sebastianmedina%2fplatzom',
-32 silly mapToRegistry   name: '@sebastianmedina/platzom',
+32 silly mapToRegistry   raw: '@sebastianmedinadelgado/platzom',
+32 silly mapToRegistry   scope: '@sebastianmedinadelgado',
+32 silly mapToRegistry   escapedName: '@sebastianmedinadelgado%2fplatzom',
+32 silly mapToRegistry   name: '@sebastianmedinadelgado/platzom',
 32 silly mapToRegistry   rawSpec: '',
 32 silly mapToRegistry   spec: 'latest',
 32 silly mapToRegistry   type: 'tag' }
-33 silly mapToRegistry uri https://registry.npmjs.org/@sebastianmedina%2fplatzom
+33 silly mapToRegistry uri https://registry.npmjs.org/@sebastianmedinadelgado%2fplatzom
 34 verbose publish registryBase https://registry.npmjs.org/
-35 silly publish uploading /Users/sebas_825/.npm/@sebastianmedina/platzom/0.1.0/package.tgz
-36 verbose request uri https://registry.npmjs.org/@sebastianmedina%2fplatzom
+35 silly publish uploading /Users/sebas_825/.npm/@sebastianmedinadelgado/platzom/0.1.0/package.tgz
+36 verbose request uri https://registry.npmjs.org/@sebastianmedinadelgado%2fplatzom
 37 verbose request sending authorization for write operation
-38 info attempt registry request try #1 at 1:41:05 PM
+38 info attempt registry request try #1 at 1:42:11 PM
 39 verbose request using bearer token for auth
-40 verbose request id 7375aa101311f1c5
-41 http request PUT https://registry.npmjs.org/@sebastianmedina%2fplatzom
-42 http 402 https://registry.npmjs.org/@sebastianmedina%2fplatzom
+40 verbose request id fa85c174a7227e82
+41 http request PUT https://registry.npmjs.org/@sebastianmedinadelgado%2fplatzom
+42 http 402 https://registry.npmjs.org/@sebastianmedinadelgado%2fplatzom
 43 verbose headers { 'content-type': 'application/json',
 43 verbose headers   'cache-control': 'max-age=0',
 43 verbose headers   'content-length': '119',
 43 verbose headers   'accept-ranges': 'bytes',
-43 verbose headers   date: 'Tue, 25 Apr 2017 18:41:07 GMT',
+43 verbose headers   date: 'Tue, 25 Apr 2017 18:42:12 GMT',
 43 verbose headers   via: '1.1 varnish',
 43 verbose headers   connection: 'keep-alive',
-43 verbose headers   'x-served-by': 'cache-atl6243-ATL',
+43 verbose headers   'x-served-by': 'cache-atl6236-ATL',
 43 verbose headers   'x-cache': 'MISS',
 43 verbose headers   'x-cache-hits': '0',
-43 verbose headers   'x-timer': 'S1493145666.444868,VS0,VE923' }
-44 verbose request invalidating /Users/sebas_825/.npm/registry.npmjs.org/_40sebastianmedina_252fplatzom on PUT
+43 verbose headers   'x-timer': 'S1493145732.755409,VS0,VE884' }
+44 verbose request invalidating /Users/sebas_825/.npm/registry.npmjs.org/_40sebastianmedinadelgado_252fplatzom on PUT
 45 error publish Failed PUT 402
-46 verbose stack Error: You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @sebastianmedina/platzom
+46 verbose stack Error: You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @sebastianmedinadelgado/platzom
 46 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
 46 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
 46 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
@@ -107,14 +107,14 @@
 46 verbose stack     at Request.emit (events.js:188:7)
 46 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
 47 verbose statusCode 402
-48 verbose pkgid @sebastianmedina/platzom
+48 verbose pkgid @sebastianmedinadelgado/platzom
 49 verbose cwd /Users/sebas_825/Documents/Sebas/Trabajos/Fundamentos JS/platzom
 50 error Darwin 16.5.0
 51 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
 52 error node v7.4.0
 53 error npm  v4.0.5
 54 error code E402
-55 error You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @sebastianmedina/platzom
+55 error You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @sebastianmedinadelgado/platzom
 56 error If you need help, you may report this error at:
 56 error     <https://github.com/npm/npm/issues>
 57 verbose exit [ 1, true ]
