@@ -50,7 +50,7 @@
 23 silly publish      mocha: '^3.3.0' },
 23 silly publish   readme: '# Platzom\n\nPlatzom es un idioma inventado para el [curso de fundamentos de JavaScript](https://platzi.com/js) de [platzi](https://platzi.com/), el mejor lugar de educacion online.\n\n## Descripción del idioma\n\n- Primera condicion: La palabra termina en \'ar\', se le quitan esos dos caracteres.\n- Segunda condicion: Si la palabra inicia con \'Z\', se añade \'pe\' al final.\n- Tercera condicion: Si la palabra traducida tiene 10 o mas letras se debe partir a la mitad y unir con un    guion en el medio.\n- Cuarta condicion: Si la palabra origina es un palindromo, ninguna regla anterior cuenta y se devuelve la misma palabra intercalando mayusculas y minusculas\n\n##Instalación\n\n```\nnpm install platzom\n\n```\n\n## USO\n\n```\nimport platzom from \'platzom\'\n\nconsole.log(platzom(\'Programar\')); //Program\nconsole.log(platzom(\'Zorro\')); //Zorrope\nconsole.log(platzom(\'Zarpar\')); //Zarppe\nconsole.log(platzom(\'Abecedario\')); //Abece-dario\nconsole.log(platzom(\'Sometemos\')); //SoMeTeMoS\n\n```\n\n## Creditos\n\n- [Sebastian Medina](https://twitter.com/SebasMD25) con ayuda de [Platzi](https://twitter.com/platzi) y del Profesor [Sacha Lifszyc](https://twitter.com/@slifszyc)\n\n## Licencia\n\n[MIT](https://opensource.org/licenses/MIT)\n',
 23 silly publish   readmeFilename: 'README.md',
-23 silly publish   gitHead: 'c0912ee5de263a1d8393995bded0e52ad492f39a',
+23 silly publish   gitHead: '46557caa08c9b4b19440c3d1f73b4ef24a3b3fe9',
 23 silly publish   bugs: { url: 'https://github.com/SebastianMedina/platzom/issues' },
 23 silly publish   homepage: 'https://github.com/SebastianMedina/platzom#readme',
 23 silly publish   _id: '@sebastianmedina/platzom@0.1.0',
@@ -77,22 +77,22 @@
 35 silly publish uploading /Users/sebas_825/.npm/@sebastianmedina/platzom/0.1.0/package.tgz
 36 verbose request uri https://registry.npmjs.org/@sebastianmedina%2fplatzom
 37 verbose request sending authorization for write operation
-38 info attempt registry request try #1 at 1:38:18 PM
+38 info attempt registry request try #1 at 1:41:05 PM
 39 verbose request using bearer token for auth
-40 verbose request id fea47e0a0102cb0b
+40 verbose request id 7375aa101311f1c5
 41 http request PUT https://registry.npmjs.org/@sebastianmedina%2fplatzom
 42 http 402 https://registry.npmjs.org/@sebastianmedina%2fplatzom
 43 verbose headers { 'content-type': 'application/json',
 43 verbose headers   'cache-control': 'max-age=0',
 43 verbose headers   'content-length': '119',
 43 verbose headers   'accept-ranges': 'bytes',
-43 verbose headers   date: 'Tue, 25 Apr 2017 18:38:19 GMT',
+43 verbose headers   date: 'Tue, 25 Apr 2017 18:41:07 GMT',
 43 verbose headers   via: '1.1 varnish',
 43 verbose headers   connection: 'keep-alive',
-43 verbose headers   'x-served-by': 'cache-atl6224-ATL',
+43 verbose headers   'x-served-by': 'cache-atl6243-ATL',
 43 verbose headers   'x-cache': 'MISS',
 43 verbose headers   'x-cache-hits': '0',
-43 verbose headers   'x-timer': 'S1493145499.594069,VS0,VE928' }
+43 verbose headers   'x-timer': 'S1493145666.444868,VS0,VE923' }
 44 verbose request invalidating /Users/sebas_825/.npm/registry.npmjs.org/_40sebastianmedina_252fplatzom on PUT
 45 error publish Failed PUT 402
 46 verbose stack Error: You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @sebastianmedina/platzom
